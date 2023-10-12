@@ -3,20 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 header{
     width: 100vw;
     height: 100vh;
-    background-image:url('img/header-bg.png'); 
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/hotel-4.jpg'); 
     background-position:bottom;
     background-size: cover;
     display:flex;
     align-items: end;
-    justify-content: center;
-    
-    
-
-
+    justify-content: center;    
 }
 .header-content
 {
@@ -33,7 +30,7 @@ header{
 .line{
     width: 150px;
     height: 4px;
-    background-color: rgb(255, 251, 251);
+    background-color:#f02020;
     margin: 10px auto;
     border-radius: 5px;
 
@@ -49,23 +46,23 @@ header{
 }
 .header-content h1:hover
 {
-    opacity: 1;
-    
+    opacity: 1;  
     color:rgb(255, 255, 255);
     letter-spacing: 10px;
 }
-a{
+.navbar1 a{
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .ctn{
     padding: 8px 15px;
-    background: #f02020;
+    background:#f02020;
     border-radius: 30px;
     color: white;
+    opacity: .8;
 }
 
-.navbar
+.navbar1
 {
     display: flex;
     position: absolute;
@@ -88,5 +85,20 @@ ul
 }
 .nav-links li{
     margin:0 30px;
+}
+.nav-links a{
+    font-weight: 700px;
+    font-size: large;
+    color: rgb(255, 255, 255);
+}
+.logo
+{
+    font-size: 4vmin;
+   
+}
+.info
+{
+    width: 100vw;
+    height: 100vh;
 }
 
