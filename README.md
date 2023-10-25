@@ -19,3 +19,4 @@ Hotel Max is also a premier destination for conferences, meetings, and special e
 
 Exceptional Service:
 At the core of Project Hotel Max's ethos is its dedication to exceptional service. Every guest is treated to personalized attention, ensuring that their every need and desire is met promptly and with a smile.
+
