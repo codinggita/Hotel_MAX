@@ -230,7 +230,6 @@ input[type=date]:focus:focus {
   font-size: 20px;
   cursor: pointer;
   margin-right:30px;
-  /* display: none;  */
 
 }
 
@@ -277,5 +276,8 @@ margin-right: 15px;
   .nav-links
   {
       display: none;
+  }
+  .clearfix ,.dates{
+    flex-direction:column;
   }
 }
